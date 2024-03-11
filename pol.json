@@ -1,6 +1,6 @@
 kkk{
     "Version": "2012-10-17",
-    "Id": "PutObjPolicy",
+    "Id": "PutObjectPolicy",
     "Statement": [
         {
             "Sid": "DenyUnEncryptedObjectUploads",
