@@ -1,6 +1,6 @@
 kkk{
     "Version": "2012-10-17",
-    "Id": "PutObjPolicy",
+    "Id": "PutObjPol",
     "Statement": [
         {
             "Sid": "DenyUnEncryptedObjectUploads",
@@ -10,7 +10,7 @@ kkk{
             "Resource": "arn:aws:s3:::shreyatanu/*",
             "Condition": {
                 "Null": {
-                    "s3:x-amz-server-side-encryption": "true"
+                    "s3:x-amz-server-side-encryption": "false"
                 }
             }
         }
