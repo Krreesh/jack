@@ -1,13 +1,17 @@
 {
     "Version": "2012-10-17",
+<<<<<<< HEAD
     "Id": "PutObPolicy",
+=======
+    "Id": "PutObjPol",
+>>>>>>> feat
     "Statement": [
         {
             "Sid": "DenyUnEncryptedObjectUploads",
-            "Effect": "Deny",
+            "Effect": "Accept",
             "Principal": "*",
             "Action": "s3:PutObject",
-            "Resource": "arn:aws:s3:::shreyatanu/*",
+            "Resource": "arn:aws:s3:::tanushreya/*",
             "Condition": {
                 "Null": {
                     "s3:x-amz-server-side-encryption": "true"
